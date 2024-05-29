@@ -23,6 +23,6 @@ pnpm dev
 
 - [Nucleo](https://nucleoapp.com/)
 
--  Contributions by Omaur Bliss
+-  [Omaur Bliss](https://rhodeystark.com)
 
 

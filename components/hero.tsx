@@ -1,5 +1,5 @@
-import VideoThumb from "@/public/images/hero-image-01.jpg";
-import ModalVideo from "@/components/modal-video";
+import Image from "next/image";
+import OmaurProfilePic from "@/public/images/omaurprofilephoto.jpg";
 
 export default function Hero() {
   return (
@@ -57,35 +57,20 @@ export default function Hero() {
               Experienced Customer Focused Problem Solver with over 15 years of
               experience who leads with curiosity and passion .
             </p>
-            {/* <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
-              <div data-aos="fade-up" data-aos-delay="400">
-                <a
-                  className="btn text-white bg-purple-600 hover:bg-purple-700 w-full mb-4 sm:w-auto sm:mb-0"
-                  href="#0"
-                >
-                  Start free trial
-                </a>
-              </div>
-              <div data-aos="fade-up" data-aos-delay="600">
-                <a
-                  className="btn text-white bg-gray-700 hover:bg-gray-800 w-full sm:w-auto sm:ml-4"
-                  href="#0"
-                >
-                  Learn more
-                </a>
-              </div>
-            </div> */}
+            <div
+              className="relative flex flex-col items-center"
+              data-aos="fade-up"
+              data-aos-anchor="[data-aos-id-blocks]"
+            >
+              <Image
+                style={{ paddingTop: "50px", margin: "auto" }}
+                height={800}
+                width={600}
+                alt="Omaur Bliss profile photo"
+                src={OmaurProfilePic}
+              ></Image>
+            </div>
           </div>
-
-          <ModalVideo
-            thumb={VideoThumb}
-            thumbWidth={1024}
-            thumbHeight={576}
-            thumbAlt="Modal video thumbnail"
-            video="/videos/video.mp4"
-            videoWidth={1920}
-            videoHeight={1080}
-          />
         </div>
       </div>
     </section>

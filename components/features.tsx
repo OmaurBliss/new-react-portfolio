@@ -15,7 +15,7 @@ export default function Features() {
             <h2 className="h2 mb-4">Technical Skills</h2>
             <p className="text-xl text-gray-400">
               During the last 7 years, I have gained wisdom and insight into a
-              broad range of technologies below is a small sample.
+              broad range of technologies.
             </p>
           </div>
 

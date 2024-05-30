@@ -54,22 +54,22 @@ export default function Hero() {
               data-aos="fade-up"
               data-aos-delay="200"
             >
-              Experienced Customer Focused Problem Solver with over 15 years of
-              experience who leads with curiosity and passion .
+              Experienced Customer Focused Problem Solver who leads with
+              curiosity and passion .
             </p>
-            <div
-              className="relative flex flex-col items-center"
-              data-aos="fade-up"
-              data-aos-anchor="[data-aos-id-blocks]"
-            >
-              <Image
-                style={{ paddingTop: "50px", margin: "auto" }}
-                height={800}
-                width={600}
-                alt="Omaur Bliss profile photo"
-                src={OmaurProfilePic}
-              ></Image>
-            </div>
+          </div>
+          <div
+            className="relative flex flex-col items-center"
+            data-aos="fade-up"
+            data-aos-anchor="[data-aos-id-blocks]"
+          >
+            <Image
+              style={{ paddingTop: "50px", margin: "auto" }}
+              height={800}
+              width={600}
+              alt="Omaur Bliss profile photo"
+              src={OmaurProfilePic}
+            ></Image>
           </div>
         </div>
       </div>
